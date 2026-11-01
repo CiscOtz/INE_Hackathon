@@ -26,7 +26,6 @@ Coloca los CSV de conteos censales en la carpeta que se indica en `ROOT`, al ini
 
 Los CSV deben incluir estas columnas:
 
-```text
 AELEC, FELECCION, EDOCVE, EDONOM, MPIOCVE, MPIONOM, SECCION,
 TIPOSEC, DEF, DEL, SEXO, EDAD, LN, SV, NV, NS
 text```
