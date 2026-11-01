@@ -29,6 +29,7 @@ Los CSV deben incluir estas columnas:
 ```text
 AELEC, FELECCION, EDOCVE, EDONOM, MPIOCVE, MPIONOM, SECCION,
 TIPOSEC, DEF, DEL, SEXO, EDAD, LN, SV, NV, NS
+text```
 
 El EDA intenta leer archivos codificados en UTF-8, UTF-8 con BOM o Latin-1. El log registra alertas por valores faltantes, duplicados, años o entidades inesperados e inconsistencias en LN = SV + NV + NS.
 
@@ -62,6 +63,3 @@ El clustering guarda sus resultados en salida_eda/clustering/, organizados por u
 - Una silueta baja puede indicar que la participación forma un gradiente continuo en vez de grupos claramente separados. Interpreta las métricas y los perfiles antes de nombrar los clusters.
 - Los cambios o divisiones de secciones entre elecciones pueden afectar qué unidades cumplen los requisitos de inclusión.
 
-## Licencia y fuente de datos
-
-Añade la licencia del repositorio y la referencia o el enlace a la fuente oficial de los datos antes de publicar el proyecto.
