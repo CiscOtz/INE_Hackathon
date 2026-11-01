@@ -28,7 +28,6 @@ Los CSV deben incluir estas columnas:
 
 AELEC, FELECCION, EDOCVE, EDONOM, MPIOCVE, MPIONOM, SECCION,
 TIPOSEC, DEF, DEL, SEXO, EDAD, LN, SV, NV, NS
-text```
 
 El EDA intenta leer archivos codificados en UTF-8, UTF-8 con BOM o Latin-1. El log registra alertas por valores faltantes, duplicados, años o entidades inesperados e inconsistencias en LN = SV + NV + NS.
 
